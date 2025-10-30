@@ -8,7 +8,7 @@ output:
 ---
 
 ## This is Tong Liu's resume
-![](tlimg.jpg)
+![](images/tlimg.jpg)
 
 #EDUCATION	
 
@@ -83,8 +83,14 @@ Languages: Chinese/Mandarin (Native), English (Proficient), Spanish (Elementary)
 Programming: Python, R, Stata, MATLAB, SAS, SQL
 
 
-## Links
+## Links {.tabset}
+
+### Linkedin Website
+
 [Linkedin](https://www.linkedin.com/in/tong-liu-a86775275/)
+
+### Github Website
+
 [Github](https://github.com/tliu121-121/)
 
 ## Link to page within the site
