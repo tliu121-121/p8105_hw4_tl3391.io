@@ -1,0 +1,91 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+#clean the dataset
+instacart_clean = instacart |> 
+  select(
+    user_id,
+    product_name,
+    department,
+    aisle,
+    add_to_cart_order,
+    reordered,
+    order_hour_of_day,
+    order_dow) |> drop_na()
+
+dept_counts = instacart_clean |>
+count(department) |>
+arrange(desc(n))
+
+plot_ly(
+  data = dept_counts,
+  x = ~reorder(department, n),
+  y = ~n,
+  type = "bar",
+  color = ~department,
+  colors = "viridis") |>
+  layout(
+  title = "Number of Orders by Department",
+  xaxis = list(title = "Department"),
+  yaxis = list(title = "Number of Orders"))
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+plot_ly(data = instacart_clean,
+  x = ~department,
+  y = ~add_to_cart_order,
+  color = ~department,
+  type = "box",
+  colors = "viridis") |>
+  layout(
+  title = "Add-to-Cart Order by Department",
+  xaxis = list(title = "Department"),
+  yaxis = list(title = "Add-to-Cart Position"))
+```
+
+### Chart C
+
+```{r}
+hourly = instacart_clean|>
+  group_by(order_hour_of_day, department) |>
+  summarize(order_count = n(), .groups = "drop")
+
+plot_ly(
+  data = hourly,
+  x = ~order_hour_of_day,
+  y = ~order_count,
+  color = ~department,
+  type = "scatter",
+  mode = "markers",
+  colors = "viridis") |>
+  layout(
+  title = "Orders Throughout the Day by Department",
+  xaxis = list(title = "Hour of Day"),
+  yaxis = list(title = "Number of Orders"))
+```
+

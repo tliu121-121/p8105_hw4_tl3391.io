@@ -1,0 +1,94 @@
+---
+title: "Plotly examples"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Examples of plotly
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+data("instacart")
+```
+
+## Clean the dataset
+
+```{r}
+instacart_clean = 
+  instacart |> 
+  select(
+    user_id,
+    product_name,
+    department,
+    aisle,
+    add_to_cart_order,
+    reordered,
+    order_hour_of_day,
+    order_dow
+  ) |> drop_na()
+```
+
+
+## Orders by Department (bar plot)
+
+```{r}
+dept_counts = instacart_clean |>
+count(department) |>
+arrange(desc(n))
+
+plot_ly(
+  data = dept_counts,
+  x = ~reorder(department, n),
+  y = ~n,
+  type = "bar",
+  color = ~department,
+  colors = "viridis") |>
+  layout(
+  title = "Number of Orders by Department",
+  xaxis = list(title = "Department"),
+  yaxis = list(title = "Number of Orders"))
+```
+
+## Distribution of Add-to-Cart Order by Department (box plot)
+
+```{r}
+plot_ly(
+  data = instacart_clean,
+  x = ~department,
+  y = ~add_to_cart_order,
+  color = ~department,
+  type = "box",
+  colors = "viridis") |>
+  layout(
+  title = "Add-to-Cart Order by Department",
+  xaxis = list(title = "Department"),
+  yaxis = list(title = "Add-to-Cart Position"))
+```
+
+## Orders by Hour of Day (Scatter Plot)
+
+```{r}
+hourly = instacart_clean|>
+  group_by(order_hour_of_day, department) |>
+  summarize(order_count = n(), .groups = "drop")
+
+plot_ly(
+  data = hourly,
+  x = ~order_hour_of_day,
+  y = ~order_count,
+  color = ~department,
+  type = "scatter",
+  mode = "markers",
+  colors = "viridis") |>
+  layout(
+  title = "Orders Throughout the Day by Department",
+  xaxis = list(title = "Hour of Day"),
+  yaxis = list(title = "Number of Orders"))
+```
+
