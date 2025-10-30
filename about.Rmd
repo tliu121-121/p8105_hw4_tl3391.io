@@ -1,0 +1,16 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This page has information about me
+
+I am a Master of Public Health candidate in Biostatistics at Columbia University with a strong foundation in data science, quantitative analysis, and product innovation. My academic journey—from dual degrees in Applied Mathematics, Statistics, and Economics at UC Davis to my current graduate study—has equipped me with solid analytical and technical skills, reflected in my top 5% GPA performance.
+
+Professionally, I have diverse experience spanning AI product management and quantitative analysis. At Mininglamp Technology, I led the design of an AI-driven video generation platform, optimizing agent systems, retrieval algorithms, and intelligent material management to enhance user experience and operational efficiency. Earlier, as an investment banking analyst at Global Capital, I applied technical analysis tools to develop trading strategies that achieved notable short-term returns.
+
+Fluent in English and proficient in Python, R, SQL, and SAS, I combine technical depth with practical insight. I am passionate about leveraging data-driven decision-making to solve complex problems in healthcare, technology, and finance—where analytical rigor meets real-world impact.
