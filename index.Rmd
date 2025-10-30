@@ -10,58 +10,76 @@ output:
 ## This is Tong Liu's resume
 ![](tlimg.jpg)
 
-EDUCATION	
+#EDUCATION	
+
 University of California, Davis Davis, CA
+
 B.S. in Applied mathematics
+
 B.S. in Statistics
+
 B.A. in Economics
+
 GPA: 3.91/4.0
+
 Main Courses: Applied mathematics (calculus, linear algebra, differential equations, real analysis, complex analysis, probability theory, optimization, abstract algebra, number theory); Economics/Economic Analysis (game theory, decision making, economic data analysis, econometrics, economic history, taxation, macroeconomic policy); Statistics/Data Science (statistics, time series analysis, analysis of variance)
 
 Columbia University, NY
-MPH Biostatistics
-GPA: 3.87/4.0
-PROFESSIONAL EXPERIENCE	
-Analyst, Investment Banking Division, Hong Kong Global Capital, Beijing    	Jun.2021 - Sep.2021
-  Inetern	
-	Utilized technical analysis tools, including Bollinger Bands for assessing market volatility
-	Employed Moving Average to monitor and interpret price trends.
-	Evaluated market overbought and oversold conditions through the use of the Stochastic Oscillator.
-	Executed trading operations within the company's account, and strategically  selected entry points based on technical analysis results.
-	Implemented and managed stop-loss and take-profit strategies, effectively controlling risk.
-	Achieved a profit of $402 USD with an initial capital of $5,000 USD within a span of five trading days, showcasing an impressive 8% return on investment.
 
-PROJECT EXPERIENCE	
+MPH Biostatistics GPA: 3.87/4.0
+
+#PROFESSIONAL EXPERIENCE	
+
+Analyst, Investment Banking Division, Hong Kong Global Capital, Beijing    	Jun.2021 - Sep.2021 Inetern	
+
+Utilized technical analysis tools, including Bollinger Bands for assessing market volatilit
+Employed Moving Average to monitor and interpret price trends.
+
+Evaluated market overbought and oversold conditions through the use of the Stochastic Oscillator.
+
+Executed trading operations within the company's account, and strategically  selected entry points based on technical analysis results.
+Implemented and managed stop-loss and take-profit strategies, effectively controlling risk.
+
+Achieved a profit of $402 USD with an initial capital of $5,000 USD within a span of five trading days, showcasing an impressive 8% return on investment.
+
+#PROJECT EXPERIENCE
+
 Heart Disease Dataset Analysis and Visualization      	Jul.2023-Sep.2023
+
 Leader | Advisor: Xiner Zhou, instructor, University of California, Davis
-	Utilized R for coding and data analysis, demonstrating expertise in data wrangling, model selection, justification, and data visualization
-	Analyzed the Heart Attack Analysis & Prediction Dataset to identify the main factors associated with heart disease
-	Managed different types of data within the dataset, including numerical and categorical data
-	Employed ANOVA techniques to the dataset's diverse data types to construct relationships between various factors
-	Identified the maximum heart rate achieved as highly correlated with the presence of heart disease by analyzing correlations between different factors and the outcome
-	Implemented boosting models and assessed their accuracy in comparison to other models to determine the number of major vessels as the most influential factor
+
+Utilized R for coding and data analysis, demonstrating expertise in data wrangling, model selection, justification, and data visualization
+
+Analyzed the Heart Attack Analysis & Prediction Dataset to identify the main factors associated with heart disease
+
+Managed different types of data within the dataset, including numerical and categorical data
+
+Employed ANOVA techniques to the dataset's diverse data types to construct relationships between various factors
+
+Identified the maximum heart rate achieved as highly correlated with the presence of heart disease by analyzing correlations between different factors and the outcome
+
+Implemented boosting models and assessed their accuracy in comparison to other models to determine the number of major vessels as the most influential factor
+
 Mathematical algorithm design	Dec.2022-Mar.2023
+
 Leader | Advisor: Stephen Schonsheck, Assistant Professor, University of California, Davis
-	Designed and implemented a suite of numerical algorithms in Python, demonstrating the application of various mathematical methods to solve complex problems
-	Devised a root-finding algorithm using the bisection method; evaluated performance through error and iteration tracking, and represented results with log-log plots for improved data analysis
-	Employed Gaussian elimination, LU factorization, Jacobi Method, and Gauss-Siedel method for solving single matrices; compiled average computation time and residual error data into comprehensive reports
-	Utilized the power method for solving large matrices, specifically focusing on eigenvalue computation
-	Implemented Newton's method for solving nonlinear equations, providing an efficient solution for complex mathematical problems
-	Applied the steepest descent technique to nonlinear problem-solving scenarios, demonstrating the effectiveness of optimization methods in real-world applications
-Churn Prediction in Telecommunications                   	Jun.2022-Aug.2022
-Leader 
-	Explored algorithms for churn prediction in the telecommunications industry.
-	Proficient in data processing, supervised machine learning model training, and model performance evaluation.
-	Mastered data preprocessing techniques to prepare data for analysis.
-	Successfully trained machine learning models to make predictions and Analyzed feature importance to identify the main factors influencing the results.
-Implementation of the Genetic Algorithm with Entropy-Boltzmann Selection Method      	Mar.2022-Jul.2022
-Leader | Advisor: Rishidev Chaudhuri, Assistant Professor, University of California, Davis
-	Implemented a genetic algorithm in Python to solve the classic Traveling Salesman Problem (TSP), optimizing the route for a salesman to visit a set of cities exactly once while minimizing the total distance traveled
-	Utilized Boltzmann selection, an entropy-related scoring method, to improve the genetic algorithm's performance and alleviate issues such as premature convergence during the later stages of evolution
-	Addressed the challenge of long runtime by optimizing parameters like population size and mutation probability, acknowledging the trade-off between convergence and divergence in the algorithm based on these parameters
-	Identified the importance of parameter optimization and emphasized the significance of striking a balance between population size and mutation rate to avoid convergence issues or diverging into a random search
-LANGUAGES & SKILLS	
+
+Designed and implemented a suite of numerical algorithms in Python, demonstrating the application of various mathematical methods to solve complex problems
+
+Devised a root-finding algorithm using the bisection method; evaluated performance through error and iteration tracking, and represented results with log-log plots for improved data analysis
+
+Employed Gaussian elimination, LU factorization, Jacobi Method, and Gauss-Siedel method for solving single matrices; compiled average computation time and residual error data into comprehensive reports
+
+Utilized the power method for solving large matrices, specifically focusing on eigenvalue computation
+
+Implemented Newton's method for solving nonlinear equations, providing an efficient solution for complex mathematical problems
+
+Applied the steepest descent technique to nonlinear problem-solving scenarios, demonstrating the effectiveness of optimization methods in real-world applications
+
+#LANGUAGES & SKILLS	
+
 Languages: Chinese/Mandarin (Native), English (Proficient), Spanish (Elementary)
+
 Programming: Python, R, Stata, MATLAB, SAS, SQL
 
 
