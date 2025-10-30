@@ -75,7 +75,6 @@ Utilized the power method for solving large matrices, specifically focusing on e
 Implemented Newton's method for solving nonlinear equations, providing an efficient solution for complex mathematical problems
 
 Applied the steepest descent technique to nonlinear problem-solving scenarios, demonstrating the effectiveness of optimization methods in real-world applications
-
 #LANGUAGES & SKILLS	
 
 Languages: Chinese/Mandarin (Native), English (Proficient), Spanish (Elementary)
