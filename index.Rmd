@@ -40,7 +40,7 @@ Evaluated market overbought and oversold conditions through the use of the Stoch
 Executed trading operations within the company's account, and strategically  selected entry points based on technical analysis results.
 Implemented and managed stop-loss and take-profit strategies, effectively controlling risk.
 
-Achieved a profit of $402 USD with an initial capital of $5,000 USD within a span of five trading days, showcasing an impressive 8% return on investment.
+Achieved a profit of 402 USD with an initial capital of $5,000 USD within a span of five trading days, showcasing an impressive 8% return on investment.
 
 #PROJECT EXPERIENCE
 
